@@ -31,20 +31,29 @@ hr {
 }
 
 
-.btn-default {
-  color: #333;
+.btn-standard {
+  color: #383847;
   background-color: #f7f9fb;
   border-color: #383847;
 }
 
 
-.btn-default:active,
-.btn-default.active,
-.open > .dropdown-toggle.btn-default {
-  color: #333;
-  background-color: #8b4167;
-  border-color: #2d2d2d;
+
+ul.nav a:hover {
+    border-color: #383847 !important;
+    background-color: #d8d8d8  !important;
+    color: #8C93A8 !important; }
+
+
+
+btn-standard:hover, .btn-standard:focus, .btn-standard:active, .btn-standard.active, .open> .dropdown-toggle.btn-standard {
+    color: #8C93A8 !important;
+    background-color: #d8d8d8 !important;
+    border-color: #383847 !important;
 }
+
+
+		  
 
 .well {
   min-height: 20px;
